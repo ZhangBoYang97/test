@@ -1,0 +1,7 @@
+public class Domain {
+    public static void main(String[] args) {
+        System.out.println(MyInterface.name);
+        MyInterfaceImpl myInterface = new MyInterfaceImpl();//返回的是实现列对象
+        myInterface.getAddress("哈尔滨师范大学");
+    }
+}
